@@ -1,11 +1,74 @@
 body {
 	background-color: blue;
+	/*margin: 0px;*/
+	box-sizing: border-box;
 }
 
 a {
   background-color: yellow;
+  box-sizing: border-box;
 }
 
 .veg {
-	color:red;
+	color:pink;
+	box-sizing: border-box;
 }
+
+#ul1 {
+	background-color: green;
+	box-sizing: border-box;
+}
+
+ul {
+	font-family: serif;
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+h1 {
+	color:white;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	background-color: lightblue;
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width:200px;
+	height: 100%;
+	background-image: linear-gradient(red, yellow, green);
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.class1 {
+	background-color: black;
+	box-sizing: border-box;
+}
+
+#id1 {
+	font-family: serif;
+	box-sizing: border-box;
+}
+
+.title {
+	height: 60px;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px;
+	border-color: grey;
+}
+
+.container {
+	/*position: relative;*/
+	width:1000px;
+	box-sizing: border-box;
+}
+
+.content {
+	position: absolute;
+	left:200px;
+	box-sizing: border-box;
+}
+
