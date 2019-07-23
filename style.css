@@ -70,5 +70,11 @@ h1 {
 	position: absolute;
 	left:200px;
 	box-sizing: border-box;
+	border-width: 2px;
+	border-color: red;
+	margin: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
 }
 
